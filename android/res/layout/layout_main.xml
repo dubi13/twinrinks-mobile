@@ -4,12 +4,12 @@
   android:layout_width="fill_parent"
   android:layout_height="fill_parent"
   android:orientation="vertical">
-
+<!--
   <com.viewpagerindicator.TitlePageIndicator
     android:id="@+id/viewPagerIndicator"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content" />
-
+ -->
   <android.support.v4.view.ViewPager
     android:id="@+id/viewPager_main_main"
     android:layout_width="match_parent"
