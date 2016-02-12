@@ -16,7 +16,7 @@ import com.actionbarsherlock.app.SherlockFragmentActivity;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuInflater;
 import com.actionbarsherlock.view.MenuItem;
-import com.viewpagerindicator.TitlePageIndicator;
+// import com.viewpagerindicator.TitlePageIndicator;
 
 /**
  * <code>Activity_Main</code> loads the three main fragments into a frame
@@ -40,6 +40,7 @@ public class Activity_Main extends SherlockFragmentActivity {
   @Override
   public void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
+    
     setContentView(R.layout.layout_main);
 
     String SubTag = "OnCreate(): ";
@@ -72,7 +73,7 @@ public class Activity_Main extends SherlockFragmentActivity {
     viewPager = (ViewPager) findViewById(R.id.viewPager_main_main);
     pagerAdapter = new ScreenSlidePagerAdapter(getSupportFragmentManager());
     viewPager.setAdapter(pagerAdapter);
-
+/*
     TitlePageIndicator titleIndicator = (TitlePageIndicator) findViewById(R.id.viewPagerIndicator);
     titleIndicator.setViewPager(viewPager);
     titleIndicator.setBackgroundColor(getResources().getColor(
@@ -80,7 +81,7 @@ public class Activity_Main extends SherlockFragmentActivity {
     titleIndicator
         .setFooterIndicatorStyle(TitlePageIndicator.IndicatorStyle.None);
     titleIndicator.setCurrentItem(viewPager.getCurrentItem());
-
+*/
     super.onResume();
   }
 
