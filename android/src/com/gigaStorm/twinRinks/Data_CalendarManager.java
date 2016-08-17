@@ -155,7 +155,7 @@ public class Data_CalendarManager {
 				Integer id = cursor.getInt(PROJECTION_CALENDAR_ID_INDEX);
 				if (id == whichCalendar) {
 					String title = cursor.getString(PROJECTION_TITLE_INDEX);
-					if (title.startsWith("Hockey- ")) {
+					if (title.startsWith("Hockey-")) {
 						String event = cursor.getString(PROJECTION_EVENT_LOCATION_INDEX);
 						if (event.startsWith("Twin Rinks Ice Arena - ")) {
 							Long start = cursor.getLong(PROJECTION_DTSTART_INDEX);

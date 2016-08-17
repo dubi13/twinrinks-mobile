@@ -10,20 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a32c50b-f2da-46e2-a020-0229f7ca300f" name="Default" comment="Get under the latest version of studio">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/AndroidManifest.xml" afterPath="$PROJECT_DIR$/android/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/android.iml" afterPath="$PROJECT_DIR$/android/android.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/project.properties" afterPath="$PROJECT_DIR$/android/project.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/src/com/gigaStorm/twinRinks/Activity_About.java" afterPath="$PROJECT_DIR$/android/src/com/gigaStorm/twinRinks/Activity_About.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/src/com/gigaStorm/twinRinks/Activity_Main.java" afterPath="$PROJECT_DIR$/android/src/com/gigaStorm/twinRinks/Activity_Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/src/com/gigaStorm/twinRinks/Activity_Settings.java" afterPath="$PROJECT_DIR$/android/src/com/gigaStorm/twinRinks/Activity_Settings.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/src/com/gigaStorm/twinRinks/Data_CalendarManager.java" afterPath="$PROJECT_DIR$/android/src/com/gigaStorm/twinRinks/Data_CalendarManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/src/com/gigaStorm/twinRinks/Fragment_Schedule.java" afterPath="$PROJECT_DIR$/android/src/com/gigaStorm/twinRinks/Fragment_Schedule.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/src/com/gigaStorm/twinRinks/Fragment_SignIn.java" afterPath="$PROJECT_DIR$/android/src/com/gigaStorm/twinRinks/Fragment_SignIn.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/src/com/gigaStorm/twinRinks/Fragment_Upcoming.java" afterPath="$PROJECT_DIR$/android/src/com/gigaStorm/twinRinks/Fragment_Upcoming.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/src/com/gigaStorm/twinRinks/Model_Game.java" afterPath="$PROJECT_DIR$/android/src/com/gigaStorm/twinRinks/Model_Game.java" />
     </list>
     <ignored path="twinrinks-mobile.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Data_CalendarManager.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Data_CalendarManager.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/android/src/com/gigaStorm/twinRinks/Data_CalendarManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="128" column="16" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="16" />
+            <state vertical-scroll-proportion="1.4221312">
+              <caret line="157" column="49" selection-start-line="157" selection-start-column="49" selection-end-line="157" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Activity_Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Activity_Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/android/src/com/gigaStorm/twinRinks/Activity_Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40963855">
-              <caret line="124" column="0" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+            <state vertical-scroll-proportion="-13.965517">
+              <caret line="163" column="23" selection-start-line="163" selection-start-column="23" selection-end-line="163" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -117,8 +106,8 @@
         <option value="$PROJECT_DIR$/android/src/com/gigaStorm/twinRinks/Activity_Settings.java" />
         <option value="$PROJECT_DIR$/android/project.properties" />
         <option value="$PROJECT_DIR$/android/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/android/src/com/gigaStorm/twinRinks/Data_CalendarManager.java" />
         <option value="$PROJECT_DIR$/android/src/com/gigaStorm/twinRinks/Activity_Main.java" />
+        <option value="$PROJECT_DIR$/android/src/com/gigaStorm/twinRinks/Data_CalendarManager.java" />
       </list>
     </option>
   </component>
@@ -629,6 +618,13 @@
       <option name="number" value="Default" />
       <updated>1439345281240</updated>
     </task>
+    <task id="LOCAL-00001" summary="Get under the latest version of studio">
+      <created>1471445157144</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1471445157145</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -642,7 +638,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="22" width="1696" height="1066" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.49755502" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32488987" sideWeight="0.49755502" order="14" side_tool="false" content_ui="tabs" />
@@ -651,7 +647,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.50488997" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32819384" sideWeight="0.49511003" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32599118" sideWeight="0.4944988" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.49755502" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294621" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -661,7 +657,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24938875" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5091863" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39977974" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -725,7 +721,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/android/src/com/gigaStorm/twinRinks/Data_CalendarManager.java</url>
+          <line>135</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -925,20 +929,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/com/gigaStorm/twinRinks/Data_CalendarManager.java">
+    <entry file="file://$PROJECT_DIR$/android/src/com/gigaStorm/twinRinks/Activity_Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="128" column="16" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="16" />
+        <state vertical-scroll-proportion="-13.965517">
+          <caret line="163" column="23" selection-start-line="163" selection-start-column="23" selection-end-line="163" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/com/gigaStorm/twinRinks/Activity_Main.java">
+    <entry file="file://$PROJECT_DIR$/android/src/com/gigaStorm/twinRinks/Data_CalendarManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40963855">
-          <caret line="124" column="0" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+        <state vertical-scroll-proportion="1.4221312">
+          <caret line="157" column="49" selection-start-line="157" selection-start-column="49" selection-end-line="157" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

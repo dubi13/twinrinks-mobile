@@ -6,6 +6,7 @@ import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
 import android.provider.Settings;
+import android.provider.SyncStateContract;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
@@ -16,6 +17,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 // import com.viewpagerindicator.TitlePageIndicator;
 
@@ -35,6 +37,8 @@ public class Activity_Main extends FragmentActivity {
 	private ViewPager viewPager;
 
 	private PagerAdapter pagerAdapter;
+
+	private static final int MY_PERMISSIONS_REQUEST_WRITE_CALENDAR = 123;
 
 	private static final String TAG = "Activity_Main";
 
@@ -120,11 +124,11 @@ public class Activity_Main extends FragmentActivity {
 
 			case R.id.menu_addToCalendar:
 				if (Build.VERSION.SDK_INT >= 14) {
-					if ((checkSelfPermission(android.Manifest.permission.READ_CALENDAR) != PackageManager.PERMISSION_GRANTED) ||
-							checkSelfPermission(android.Manifest.permission.WRITE_CALENDAR) != PackageManager.PERMISSION_GRANTED) {
+					if (checkSelfPermission(android.Manifest.permission.WRITE_CALENDAR)
+							!= PackageManager.PERMISSION_GRANTED) {
 
-						requestPermissions(new String[]{android.Manifest.permission.READ_CALENDAR},
-								REQUEST_CODE_ASK_PERMISSIONS);
+						requestPermissions(new String[]{android.Manifest.permission.WRITE_CALENDAR},
+								MY_PERMISSIONS_REQUEST_WRITE_CALENDAR);
 
 						Logger.e(TAG, SubTag + "No permissions for updating calendar. Requesting access");
 					} else {
@@ -143,6 +147,27 @@ public class Activity_Main extends FragmentActivity {
 		}
 	}
 
+	@Override
+	public void onRequestPermissionsResult(int requestCode, String permissions[], int[] grantResults) {
+		switch (requestCode) {
+			case MY_PERMISSIONS_REQUEST_WRITE_CALENDAR: {
+				// If request is cancelled, the result arrays are empty.
+				if (grantResults.length > 0
+						&& grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+					Data_CalendarManager man = new Data_CalendarManager(this);
+					man.saveGamesToCalendar();
+
+				} else {
+					Toast.makeText(this, "No permissions to update calendar",
+							Toast.LENGTH_LONG).show();
+				}
+				return;
+			}
+
+			// other 'case' lines to check for other
+			// permissions this app might request
+		}
+	}
 
 	private class ScreenSlidePagerAdapter extends FragmentStatePagerAdapter {
 		public ScreenSlidePagerAdapter(FragmentManager fm) {
