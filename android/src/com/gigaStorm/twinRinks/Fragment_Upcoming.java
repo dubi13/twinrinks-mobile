@@ -1,8 +1,10 @@
 package com.gigaStorm.twinRinks;
 
 import java.util.ArrayList;
+
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -10,7 +12,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.ListView;
-import com.actionbarsherlock.app.SherlockFragment;
+
 
 /**
  * <code>Fragment_Upcoming</code> shows the user's upcoming games in date-sorted
@@ -19,7 +21,7 @@ import com.actionbarsherlock.app.SherlockFragment;
  * @author Andrew Mass
  * @see Fragment
  */
-public class Fragment_Upcoming extends SherlockFragment {
+public class Fragment_Upcoming extends Fragment {
 
   private Button btn_upcoming_goToAddTeams;
 

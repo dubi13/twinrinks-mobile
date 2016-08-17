@@ -1,6 +1,8 @@
 package com.gigaStorm.twinRinks;
 
 import java.util.ArrayList;
+
+import android.app.ActionBar;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -13,8 +15,6 @@ import android.preference.Preference.OnPreferenceClickListener;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceCategory;
 import android.text.InputType;
-import com.actionbarsherlock.app.ActionBar;
-import com.actionbarsherlock.app.SherlockPreferenceActivity;
 
 /**
  * <code>Activity_Settings</code> allows the user to change application settings
@@ -23,7 +23,7 @@ import com.actionbarsherlock.app.SherlockPreferenceActivity;
  * @author Andrew Mass
  * @see PreferenceActivity
  */
-public class Activity_Settings extends SherlockPreferenceActivity {
+public class Activity_Settings extends PreferenceActivity {
 
   private PreferenceCategory addTeamCategory;
 
@@ -47,7 +47,7 @@ public class Activity_Settings extends SherlockPreferenceActivity {
 
     getWindow().setBackgroundDrawableResource(android.R.color.black);
 
-    actionBar = getSupportActionBar();
+    actionBar = getActionBar();
     actionBar.setHomeButtonEnabled(true);
     actionBar.setDisplayHomeAsUpEnabled(true);
     actionBar.setTitle("Settings");

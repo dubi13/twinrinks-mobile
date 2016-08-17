@@ -2,12 +2,12 @@ package com.gigaStorm.twinRinks;
 
 import android.os.Bundle;
 import android.preference.PreferenceManager;
+import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-import com.actionbarsherlock.app.SherlockFragment;
 
 /**
  * <code>Fragment_SignIn</code> takes the user to the online sub sign-in system.
@@ -15,7 +15,7 @@ import com.actionbarsherlock.app.SherlockFragment;
  * @author Andrew Mass
  * @see Fragment
  */
-public class Fragment_SignIn extends SherlockFragment {
+public class Fragment_SignIn extends Fragment {
 
   private Util util;
 

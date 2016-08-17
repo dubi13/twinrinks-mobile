@@ -8,6 +8,7 @@ import android.app.DatePickerDialog.OnDateSetListener;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
 import android.text.format.Time;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -16,7 +17,6 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.ListView;
-import com.actionbarsherlock.app.SherlockFragment;
 
 /**
  * <code>Fragment_Schedule</code> allows the user to view game data in multiple
@@ -25,7 +25,7 @@ import com.actionbarsherlock.app.SherlockFragment;
  * @author Andrew Mass
  * @see Fragment
  */
-public class Fragment_Schedule extends SherlockFragment {
+public class Fragment_Schedule extends Fragment {
 
   private Button btn_schedule_dataSelector;
 

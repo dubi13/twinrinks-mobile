@@ -1,6 +1,5 @@
 package com.gigaStorm.twinRinks;
 
-import java.io.Serializable;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;

@@ -1,13 +1,14 @@
 package com.gigaStorm.twinRinks;
 
+import android.app.ActionBar;
+import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
-import com.actionbarsherlock.app.ActionBar;
-import com.actionbarsherlock.app.SherlockActivity;
+
 
 /**
  * <code>Activity_About</code> shows extra information about the application to
@@ -15,7 +16,7 @@ import com.actionbarsherlock.app.SherlockActivity;
  * 
  * @author Andrew Mass
  */
-public class Activity_About extends SherlockActivity {
+public class Activity_About extends Activity {
 
   private ActionBar actionBar;
 
@@ -32,7 +33,7 @@ public class Activity_About extends SherlockActivity {
     setContentView(R.layout.layout_about);
     getWindow().setBackgroundDrawableResource(android.R.color.black);
 
-    actionBar = getSupportActionBar();
+    actionBar = getActionBar();
     actionBar.setDisplayHomeAsUpEnabled(true);
     actionBar.setHomeButtonEnabled(true);
     actionBar.setTitle("About");
